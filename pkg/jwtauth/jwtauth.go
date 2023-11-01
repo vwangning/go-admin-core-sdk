@@ -474,7 +474,7 @@ func (mw *GinJWTMiddleware) LoginHandler(c *gin.Context) {
 	//创建新的国密码的token
 
 	// 从pem文件读取私钥
-	privKey, err := x509.ReadPrivateKeyFromPemFile("/Users/wangning/GolandProjects/zcutils-go/testdata/sm2_pri_key.pem", nil)
+	privKey, err := x509.ReadPrivateKeyFromPemFile("/keyfile/sm2_pri_key.pem", nil)
 
 	tokenString, err := zctoken.BuildTokenWithGM(claims, time.Time{}, privKey.(*sm2.PrivateKey))
 
@@ -544,7 +544,7 @@ func (mw *GinJWTMiddleware) RefreshToken(c *gin.Context) (string, time.Time, err
 	newClaims["orig_iat"] = mw.TimeFunc().Unix()
 	tokenString, err := mw.signedString(newToken)
 	// 从pem文件读取私钥
-	privKey, err := x509.ReadPrivateKeyFromPemFile("/Users/wangning/GolandProjects/zcutils-go/testdata/sm2_pri_key.pem", nil)
+	privKey, err := x509.ReadPrivateKeyFromPemFile("/sm2_pri_key.pem", nil)
 
 	tokenString, err = zctoken.BuildTokenWithGM(claims, time.Time{}, privKey.(*sm2.PrivateKey))
 	if err != nil {
