@@ -12,6 +12,7 @@ require (
 	github.com/gin-gonic/gin v1.7.7
 	github.com/go-admin-team/go-admin-core v1.3.12-0.20221121065133-27b7dbe27a8f
 	github.com/go-admin-team/go-admin-core/plugins/logger/zap v0.0.0-20210610020726-2db73adb505d
+	github.com/go-admin-team/go-admin-core/sdk v1.5.1
 	github.com/go-admin-team/gorm-adapter/v3 v3.2.1-0.20210902112335-4148cb356a24
 	github.com/go-admin-team/redis-watcher/v2 v2.0.0-20221121052608-058cebff72c2
 	github.com/go-admin-team/redisqueue/v2 v2.0.0
@@ -38,7 +39,6 @@ require (
 	github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bitly/go-simplejson v0.5.0 // indirect
-	github.com/casbin/redis-watcher/v2 v2.5.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/chanxuehong/rand v0.0.0-20201110082127-2f19a1bdd973 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
@@ -86,6 +86,7 @@ require (
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.34.0 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
+	github.com/redis/go-redis/v9 v9.0.3 // indirect
 	github.com/smartystreets/assertions v0.0.0-20180927180507-b2de0cb4f26d // indirect
 	github.com/spf13/cast v1.3.1 // indirect
 	github.com/tsuyoshiwada/go-gitcmd v0.0.0-20180205145712-5f1f5f9475df // indirect
@@ -113,3 +114,5 @@ replace github.com/go-admin-team/go-admin-core => github.com/beijinzhibai/go-adm
 replace gitee.com/zhaochuninhefei/zcutils-go => github.com/beijinzhibai/zcutils-go v1.0.0
 
 replace gitee.com/zhaochuninhefei/gmgo => github.com/beijinzhibai/gmgo v1.0.0
+
+replace github.com/go-admin-team/go-admin-core/sdk => github.com/vwangning/go-admin-core-sdk v1.0.0
