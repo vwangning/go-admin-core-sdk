@@ -1,4 +1,5 @@
 module go-admin-core/sdk
+
 go 1.18
 
 require (
@@ -6,12 +7,11 @@ require (
 	gitee.com/zhaochuninhefei/zcutils-go v0.0.8
 	github.com/bsm/redislock v0.8.2
 	github.com/bytedance/go-tagexpr/v2 v2.7.12
-	github.com/casbin/casbin/v2 v2.54.0
+	github.com/casbin/casbin/v2 v2.66.1
 	github.com/chanxuehong/wechat v0.0.0-20201110083048-0180211b69fd
 	github.com/gin-gonic/gin v1.7.7
 	github.com/go-admin-team/go-admin-core v1.3.12-0.20221121065133-27b7dbe27a8f
 	github.com/go-admin-team/go-admin-core/plugins/logger/zap v0.0.0-20210610020726-2db73adb505d
-	github.com/go-admin-team/go-admin-core/sdk v1.5.1
 	github.com/go-admin-team/gorm-adapter/v3 v3.2.1-0.20210902112335-4148cb356a24
 	github.com/go-admin-team/redis-watcher/v2 v2.0.0-20221121052608-058cebff72c2
 	github.com/go-admin-team/redisqueue/v2 v2.0.0
@@ -38,7 +38,8 @@ require (
 	github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bitly/go-simplejson v0.5.0 // indirect
-	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/casbin/redis-watcher/v2 v2.5.0 // indirect
+	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/chanxuehong/rand v0.0.0-20201110082127-2f19a1bdd973 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/fatih/color v1.7.0 // indirect
@@ -108,3 +109,7 @@ require (
 )
 
 replace github.com/go-admin-team/go-admin-core => github.com/beijinzhibai/go-admin-core v1.0.1
+
+replace gitee.com/zhaochuninhefei/zcutils-go => github.com/beijinzhibai/zcutils-go v1.0.0
+
+replace gitee.com/zhaochuninhefei/gmgo => github.com/beijinzhibai/gmgo v1.0.0

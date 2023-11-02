@@ -3,6 +3,8 @@ package api
 import (
 	"errors"
 	"fmt"
+	sdk "go-admin-core/sdk"
+	"go-admin-core/sdk/service"
 
 	"net/http"
 
@@ -10,12 +12,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-admin-team/go-admin-core/logger"
-	"github.com/go-admin-team/go-admin-core/sdk"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg/response"
-	"github.com/go-admin-team/go-admin-core/sdk/service"
 	"github.com/go-admin-team/go-admin-core/storage"
 	"github.com/go-admin-team/go-admin-core/tools/language"
+	"go-admin-core/sdk/pkg"
+	"go-admin-core/sdk/pkg/response"
 	"gorm.io/gorm"
 )
 
