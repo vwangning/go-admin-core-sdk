@@ -3,7 +3,8 @@ package api
 import (
 	"errors"
 	"fmt"
-	sdk "github.com/go-admin-team/go-admin-core/sdk"
+	sdk "go-admin-core/sdk"
+
 	"github.com/go-admin-team/go-admin-core/sdk/service"
 
 	"net/http"
