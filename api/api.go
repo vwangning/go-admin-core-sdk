@@ -5,7 +5,7 @@ import (
 	"fmt"
 	sdk "github.com/vwangning/go-admin-core-sdk"
 
-	"github.com/go-admin-team/go-admin-core/sdk/service"
+	"github.com/vwangning/go-admin-core-sdk/service"
 
 	"net/http"
 
