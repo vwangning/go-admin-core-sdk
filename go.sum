@@ -135,8 +135,6 @@ github.com/git-chglog/git-chglog v0.0.0-20190611050339-63a4e637021f h1:8l4Aw3Jmx
 github.com/git-chglog/git-chglog v0.0.0-20190611050339-63a4e637021f/go.mod h1:Dcsy1kii/xFyNad5JqY/d0GO5mu91sungp5xotbm3Yk=
 github.com/go-admin-team/go-admin-core/plugins/logger/zap v0.0.0-20210610020726-2db73adb505d h1:MMro15ZzoC7r7vBLb/CQrd+XURfwztpcGhQBTly1yag=
 github.com/go-admin-team/go-admin-core/plugins/logger/zap v0.0.0-20210610020726-2db73adb505d/go.mod h1:STwyms2f2AtWQ4H5xpxoM86n821nHGLvnsf0wtvRdoo=
-github.com/go-admin-team/go-admin-core/sdk v1.5.1 h1:U1VaXuMrMmeLiQyJipqnTxHE84vspaK++wkTWfYpcOI=
-github.com/go-admin-team/go-admin-core/sdk v1.5.1/go.mod h1:yNoHmYZtGc1WFWZwhAop0sSyZhsrsSGqvje2yvClXjE=
 github.com/go-admin-team/gorm-adapter/v3 v3.2.1-0.20210902112335-4148cb356a24 h1:WqS3kVwKKnuRlpXv9RF4Dd/3xQPpL/XXgaupTSGuplc=
 github.com/go-admin-team/gorm-adapter/v3 v3.2.1-0.20210902112335-4148cb356a24/go.mod h1:Yx5cikA29Qzrmh1R0JP++pdinj0oAywcNvhvZPz25Yc=
 github.com/go-admin-team/redis-watcher/v2 v2.0.0-20221121052608-058cebff72c2 h1:Hr1zJSk/UmfiR4YJFYIHq4IBc9t8h5wd9yD4QlEzdI0=
