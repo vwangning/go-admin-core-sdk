@@ -97,8 +97,6 @@ github.com/glebarez/sqlite v1.4.3 h1:ZABNo+2YIau8F8sZ7Qh/1h/ZnlSUMHFGD4zJKPval7A
 github.com/glebarez/sqlite v1.4.3/go.mod h1:FcJlwP9scnxlQ5zxyl0+bn/qFjYcqG4eRvKYhs39QAQ=
 github.com/go-admin-team/go-admin-core/plugins/logger/zap v1.4.0 h1:qOAJWHso/xN3RgC6gnNo9bxAx7vovES4jEPMGYMRPrc=
 github.com/go-admin-team/go-admin-core/plugins/logger/zap v1.4.0/go.mod h1:+ToCh4NnLbc0ZlQWTQWZnnzn2+BaFLlxA+W2Dbpy8OA=
-github.com/go-admin-team/go-admin-core/sdk v1.5.1 h1:U1VaXuMrMmeLiQyJipqnTxHE84vspaK++wkTWfYpcOI=
-github.com/go-admin-team/go-admin-core/sdk v1.5.1/go.mod h1:yNoHmYZtGc1WFWZwhAop0sSyZhsrsSGqvje2yvClXjE=
 github.com/go-admin-team/gorm-adapter/v3 v3.7.7 h1:2XVXio6E0rsfH9o6tb5kHQ/n4WrsKJAVT0SbndgymHU=
 github.com/go-admin-team/gorm-adapter/v3 v3.7.7/go.mod h1:/BlqJ5uKRDmTzEZu7G3x2NjP/LB1NilThgCv3FcfnJE=
 github.com/go-admin-team/redis-watcher/v2 v2.0.0-20221121052608-058cebff72c2 h1:Hr1zJSk/UmfiR4YJFYIHq4IBc9t8h5wd9yD4QlEzdI0=

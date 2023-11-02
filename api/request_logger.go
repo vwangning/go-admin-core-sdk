@@ -1,8 +1,8 @@
 package api
 
 import (
-	sdk "github.com/go-admin-team/go-admin-core/sdk"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
+	sdk "github.com/vwangning/go-admin-core-sdk"
+	"github.com/vwangning/go-admin-core-sdk/pkg"
 	"strings"
 
 	"github.com/gin-gonic/gin"

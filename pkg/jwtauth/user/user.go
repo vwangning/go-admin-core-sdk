@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-admin-team/go-admin-core/sdk/pkg"
-	jwt "github.com/go-admin-team/go-admin-core/sdk/pkg/jwtauth"
+	"github.com/vwangning/go-admin-core-sdk/pkg"
+	jwt "github.com/vwangning/go-admin-core-sdk/pkg/jwtauth"
 )
 
 func ExtractClaims(c *gin.Context) jwt.MapClaims {

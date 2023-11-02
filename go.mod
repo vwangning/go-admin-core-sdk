@@ -12,7 +12,6 @@ require (
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-admin-team/go-admin-core v1.5.1
 	github.com/go-admin-team/go-admin-core/plugins/logger/zap v1.4.0
-	github.com/go-admin-team/go-admin-core/sdk v1.5.1
 	github.com/go-admin-team/gorm-adapter/v3 v3.7.7
 	github.com/go-admin-team/redis-watcher/v2 v2.0.0-20221121052608-058cebff72c2
 	github.com/go-admin-team/redisqueue/v2 v2.0.0
