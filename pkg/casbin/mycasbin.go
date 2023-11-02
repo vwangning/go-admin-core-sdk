@@ -4,7 +4,6 @@ import (
 	"sync"
 
 	"github.com/casbin/casbin/v2"
-	"github.com/casbin/casbin/v2/log"
 	"github.com/casbin/casbin/v2/model"
 	"github.com/go-admin-team/go-admin-core/logger"
 	sdk "github.com/go-admin-team/go-admin-core/sdk"
@@ -103,7 +102,7 @@ func Setup(db *gorm.DB, _ string) *casbin.SyncedEnforcer {
 			}
 		}
 
-		log.SetLogger(&Logger{})
+		//log.SetLogger(&Logger{})
 		enforcer.EnableLog(true)
 	})
 
