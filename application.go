@@ -1,4 +1,4 @@
-package go_admin_core_sdk
+package sdk
 
 import "github.com/vwangning/go-admin-core-sdk/runtime"
 
